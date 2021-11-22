@@ -1,4 +1,4 @@
-<include a CircleCI status badge, here>
+CircleCI build status : [![edslal](https://circleci.com/gh/edslal/project-ml-microservice-kubernetes.svg?style=svg)](https://app.circleci.com/pipelines/github/edslal/project-ml-microservice-kubernetes)
 
 ## Project Overview
 
