@@ -6,10 +6,14 @@
 # Step 1:
 # Create dockerpath
 # dockerpath=<your docker ID/path>
+dockerpath=edslal/projectml
 
 # Step 2:  
 # Authenticate & tag
 echo "Docker ID and Image: $dockerpath"
+docker login --username edslal
+docker tag projectml $dockerpath
 
 # Step 3:
 # Push image to a docker repository
+docker push $dockerpath
