@@ -5,11 +5,11 @@
 # Step 1:
 # This is your Docker ID/path
 # dockerpath=<>
-dockerpath=edslal/projectml
+dockerpath=edslal/project-ml-microservice-kubernetes
 
 # Step 2
 # Run the Docker Hub container with kubernetes
-kubectl run projectml --image edslal/projectml
+kubectl run project-ml-microservice-kubernetes --image edslal/project-ml-microservice-kubernetes
 
 # Step 3:
 # List kubernetes pods
@@ -17,4 +17,4 @@ kubectl get pods
 
 # Step 4:
 # Forward the container port to a host
-kubectl port-forward projectml 8000:80
+kubectl port-forward project-ml-microservice-kubernetes 8000:80

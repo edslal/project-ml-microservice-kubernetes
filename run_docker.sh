@@ -4,7 +4,7 @@
 
 # Step 1:
 # Build image and add a descriptive tag
-docker build --tag=projectml
+docker build --tag=project-ml-microservice-kubernetes
 
 # Step 2: 
 # List docker images

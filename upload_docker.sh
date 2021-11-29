@@ -6,13 +6,13 @@
 # Step 1:
 # Create dockerpath
 # dockerpath=<your docker ID/path>
-dockerpath=edslal/projectml
+dockerpath=edslal/project-ml-microservice-kubernetes
 
 # Step 2:  
 # Authenticate & tag
 echo "Docker ID and Image: $dockerpath"
 docker login --username edslal
-docker tag projectml $dockerpath
+docker tag project-ml-microservice-kubernetes $dockerpath
 
 # Step 3:
 # Push image to a docker repository
